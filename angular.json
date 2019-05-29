@@ -4,11 +4,19 @@
   "newProjectRoot": "projects",
   "projects": {
     "front-end": {
+<<<<<<< HEAD
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
+=======
+      "projectType": "application",
+      "schematics": {},
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+>>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -17,17 +25,27 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
+<<<<<<< HEAD
             "tsConfig": "src/tsconfig.app.json",
+=======
+            "tsConfig": "tsconfig.app.json",
+>>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true
+=======
+              "src/styles.css"
+            ],
+            "scripts": []
+>>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
           },
           "configurations": {
             "production": {
@@ -78,6 +96,7 @@
           "options": {
             "main": "src/test.ts",
             "polyfills": "src/polyfills.ts",
+<<<<<<< HEAD
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
@@ -89,19 +108,38 @@
               "src/favicon.ico",
               "src/assets"
             ]
+=======
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
+            "scripts": []
+>>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
+<<<<<<< HEAD
               "src/tsconfig.app.json",
               "src/tsconfig.spec.json"
+=======
+              "tsconfig.app.json",
+              "tsconfig.spec.json",
+              "e2e/tsconfig.json"
+>>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
             ],
             "exclude": [
               "**/node_modules/**"
             ]
           }
+<<<<<<< HEAD
         }
       }
     },
@@ -110,6 +148,9 @@
       "projectType": "application",
       "prefix": "",
       "architect": {
+=======
+        },
+>>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
@@ -121,6 +162,7 @@
               "devServerTarget": "front-end:serve:production"
             }
           }
+<<<<<<< HEAD
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
@@ -134,5 +176,10 @@
       }
     }
   },
+=======
+        }
+      }
+    }},
+>>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
   "defaultProject": "front-end"
 }

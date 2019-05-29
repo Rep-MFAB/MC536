@@ -5,12 +5,20 @@
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
+<<<<<<< HEAD
     "module": "es2015",
+=======
+    "module": "esnext",
+>>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
+<<<<<<< HEAD
     "target": "es5",
+=======
+    "target": "es2015",
+>>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
     "typeRoots": [
       "node_modules/@types"
     ],

@@ -2,7 +2,11 @@
   height: 100px;
   width: 300px;
   position: relative;
+<<<<<<< HEAD
   top: 20px;
+=======
+  top: 10px;
+>>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
   left: 45px;
 }
 

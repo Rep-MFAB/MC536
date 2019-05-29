@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .all{
   display: flex;
   flex-direction: row;
@@ -8,3 +9,20 @@
   display: flex;
   flex-direction: column;
 }
+=======
+.checkboxes{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.medico-forms {
+  display: flex;
+  flex-direction: column;
+}
+
+.medico-forms > * {
+  width: 50%;
+}
+>>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
