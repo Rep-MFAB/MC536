@@ -1,0 +1,10 @@
+.all{
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+.checkboxes{
+  display: flex;
+  flex-direction: column;
+}
