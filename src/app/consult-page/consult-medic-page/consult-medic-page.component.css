@@ -1,0 +1,15 @@
+.checkboxes{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.medico-forms {
+  display: flex;
+  flex-direction: column;
+}
+
+.medico-forms > * {
+  width: 50%;
+}
