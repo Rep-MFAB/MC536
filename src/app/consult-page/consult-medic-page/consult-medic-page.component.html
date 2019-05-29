@@ -1,5 +1,4 @@
 <!-- SEARCH BAR -->
-<<<<<<< HEAD
 <div class="all">
 <div class="search-filter-table">
   <mat-form-field>
@@ -10,16 +9,6 @@
   <div class="filters">
     <app-filter></app-filter>
   </div>
-=======
-<mat-form-field>
-  <input matInput (keyup)="applyFilter($event.target.value)" placeholder="busca">
-</mat-form-field>
-
-<!-- FILTERS -->
-<div class="filters">
-  <app-filter></app-filter>
-</div>
->>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
 
 <!-- TABELAS -->
   <table mat-table [dataSource]="dataSource" class="mat-elevation-z8>" *ngIf="showTable">
@@ -44,16 +33,9 @@
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
-<<<<<<< HEAD
 </div>
 <!-- FORMULARIO -->
 <div>
   <app-generic-form></app-generic-form>
 </div>
 </div>
-=======
-
-<!-- FORMULARIO -->
-
-<app-generic-form></app-generic-form>
->>>>>>> 33696e1abebb25dadf476e1d3566f111abb697ba
