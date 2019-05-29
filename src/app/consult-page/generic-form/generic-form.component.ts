@@ -44,7 +44,7 @@ export class GenericFormComponent implements OnInit {
     JSON.stringify(this.model5);
   }
   onSubmit6(){
-    JSON.stringify(this.model6);
+  JSON.stringify(this.model6);
   }
 
   constructor() { }

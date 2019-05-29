@@ -1,11 +1,10 @@
 export class Medico {
   constructor(
-    public crm: number,
-    public tel: number,
-    public email: string,
-    public nome: string,
-    public cpf: number,
-    public especializacao: string,
-    public datanasc: number
+    public crm: string = "",
+    public cpf: string = "",
+    public especializacao: string = "",
+    public nome: string = "",
+    public telefone: string = "",
+    public data_de_nascimento: string = ""
   ){}
 }

@@ -1,9 +1,10 @@
 export class Internacao {
   constructor(
-    public protocolo: number,
-    public quarto: number,
-    public datain: number,
-    public dataout: number,
-    public leito: number
+    public protocolo_internacao: string = "",
+    public data_da_internacao: string = "",
+    public dias_internado: string = "",
+    public leito: string = "",
+    public quarto: string = "",
+    public cpf: string = ""
   ){}
 }
